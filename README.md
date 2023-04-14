@@ -8,4 +8,3 @@ Save the monitor_system.ini file as /etc/systemd/system/system_monitor.service. 
 sudo systemctl daemon-reload
 sudo systemctl start system_monitor
 sudo systemctl enable system_monitor
-
