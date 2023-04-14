@@ -5,6 +5,6 @@ In addition to the Python code, there are instructions to convert this code into
 
 Save the monitor_system.ini file as /etc/systemd/system/system_monitor.service. Then, you can start and enable the service using the following commands:
 
-sudo systemctl daemon-reload
-sudo systemctl start system_monitor
-sudo systemctl enable system_monitor
+1-) sudo systemctl daemon-reload
+2-) sudo systemctl start system_monitor
+3-) sudo systemctl enable system_monitor
